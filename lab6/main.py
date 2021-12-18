@@ -5,6 +5,7 @@ from OpenGL.GLUT import *
 import numpy as np
 import sys
 import threading
+import time
 
 # параметры освещения
 light_pos = (20, 30, 30)  # положение источника света
