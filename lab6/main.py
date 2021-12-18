@@ -183,7 +183,7 @@ def main():
     glutInitWindowSize(500, 500)
     glutInitWindowPosition(0, 0)
     glutInit(sys.argv)  # инициализируем opengl
-    glutCreateWindow("cg lab 4-5")
+    glutCreateWindow("cg lab 6")
     glutDisplayFunc(display)  # определяем функцию для отрисовки
     glutReshapeFunc(reshape)  # определяем функцию для масштабирования
     glutKeyboardFunc(specialkeys)  # определяем функцию для обработки нажатия клавиш
